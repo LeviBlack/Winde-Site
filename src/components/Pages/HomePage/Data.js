@@ -6,7 +6,7 @@ export const homeObjOne = {
   headLine: "Easy Access",
   description:
     "Our Web Aplication makes it easy to sync up moments during your video recording, allowing you and your team to review, clip and share key moments.  ",
-  buttonLabel: "Get Started",
+  buttonLabel: "Sign Up",
   imgStart: "",
   img: "images/svg-6.svg",
   alt: "Application",
