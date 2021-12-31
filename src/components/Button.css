@@ -59,7 +59,10 @@
 .btn--wide:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  color: #242424;
+  color: #23272a;
+  border: 1.5px solid #23272a;
+  border-radius: 4px;
+  margin-top: 1%;
 }
 
 .btn-link {

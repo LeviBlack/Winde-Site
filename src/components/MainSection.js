@@ -8,7 +8,7 @@ function MainSection({
   topLine,
   lightText,
   lightTextDesc,
-  headline,
+  headLine,
   description,
   buttonLabel,
   img,
@@ -30,9 +30,11 @@ function MainSection({
           >
             <div className="col">
               <div className="home__hero-text-wrapper">
-                <div className="top-line">{topLine}</div>
+                <div className={lightText ? "top-line" : "top-line--dark"}>
+                  {topLine}
+                </div>
                 <h1 className={lightText ? "heading" : "heading dark"}>
-                  {headline}
+                  {headLine}
                 </h1>
                 <p
                   className={
@@ -45,7 +47,7 @@ function MainSection({
                 </p>
                 <Link to="/sign-up">
                   <Button
-                    buttonStyle="btn--outline"
+                    buttonStyle="btn--primary"
                     buttonColor="darkblue"
                     buttonSize="btn--wide"
                   >

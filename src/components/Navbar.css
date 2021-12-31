@@ -1,5 +1,5 @@
 .navbar {
-  background: #23272a;
+  background: #2c2f33;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -103,7 +103,6 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
     width: 100%;
     display: table;
   }
@@ -149,6 +148,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 120px;
+    height: 230px;
   }
 }

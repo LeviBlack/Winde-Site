@@ -31,8 +31,8 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            Wind
             <RiWindyFill className="navbar-icon" />
-            Winde
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
@@ -64,8 +64,8 @@ function Navbar() {
             <li className="nav-btn">
               {button ? (
                 <Link to="/sign-up" className="btn-link">
-                  <Button buttonStyle="btn--outline" buttonColor="blue">
-                    Sign Up
+                  <Button buttonStyle="btn--outline" buttonColor="darkblue">
+                    Log In
                   </Button>
                 </Link>
               ) : (
@@ -75,7 +75,7 @@ function Navbar() {
                   onClick={closeMobileMenu}
                 >
                   <Button buttonStyle="btn--primary" buttonSize="btn--mobile">
-                    Sign Up
+                    Log In
                   </Button>
                 </Link>
               )}
